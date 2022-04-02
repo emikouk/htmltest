@@ -3,10 +3,10 @@
 <head>
   <title>Styles</title>
   <style>
-    h1 {
+    .color-header {
       color: rgb(119, 66, 172);
     }
-    ul {
+    .color-list {
       background-color: rgb(231, 145, 174); 
       font-size: large;
     }
@@ -16,14 +16,22 @@
       background-color: aqua; 
       margin-top: 40px;
     }
+    #color-list-item2  { 
+      background-color: rgb(186, 186, 247); 
+      color: rgb(248, 245, 245);
+    }
+    #color-list-item2-fav {
+      color: rgb(38, 189, 106);
+       font-size: 50px;
+    }
   </style>
 </head>
 <body>
   <div>
-    <h1>Colors</h1>
-    <ul>
+    <h1 class="color-header">Colors</h1>
+    <ul class="color-list">
       <li>κόκκινο</li> 
-      <li style="background-color: rgb(186, 186, 247); color: rgb(248, 245, 245);">λιλά <span style="color: rgb(38, 189, 106); font-size: 50px;">fav</span><3</li>
+      <li id="color-list-item2">λιλά <span id="color-list-item2-fav">fav</span><3</li>
       <li>γαλάζιο</li>
     </ul>
   </div>
