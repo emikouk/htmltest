@@ -1,0 +1,20 @@
+.box-container-1 {
+  background-color: rgb(203, 180, 226);
+  width: 500px;
+  height: 500px;
+}
+.box-1 {
+  background-color: rgb(219, 100, 100);
+  /* margin: 10px;  */ 
+}
+.box-1 h1 {
+  color: beige;
+}
+.box-2 {
+  background-color: azure;
+  /* margin-top: 65px;  */
+}
+.box-3 {
+  background-color: rgb(83, 165, 165);
+  
+}
